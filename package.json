@@ -1,0 +1,21 @@
+{
+  "name": "fortis_random_date_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}

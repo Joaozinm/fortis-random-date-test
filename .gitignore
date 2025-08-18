@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+# Playwright Test Artifacts
+/test-results/
+/playwright-report/
+/playwright/.cache/
+*.zip
+.vscode/
+.idea/
+!.env.example
+# Logs
+npm-debug.log*
